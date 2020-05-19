@@ -1,0 +1,35 @@
+#vegas {
+    
+    display: block;
+    background-color: lightgreen;
+    font-style: oblique;
+    text-align: center;
+    border: dotted 2px green;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1px auto;
+    height: 90px;
+
+ }
+#dicePic1 {
+    float: left;
+}
+#dicePic2 {
+    box-sizing: border-box;
+    float: right;
+}
+
+#diceNum {
+    box-sizing: border-box;
+    background-color: aquamarine;
+    border: black, dotted, 2px;
+   
+}
+
+#allRolls {
+    box-sizing: content-box;
+    border: dotted; 30px; black;
+    background-color: lightgreen;
+    height: auto;
+    width: 200px;
+    margin: 5px;
+}

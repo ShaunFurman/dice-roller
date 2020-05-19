@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Roller</title>
+    <!-- <script css</script> -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div id="vegas" ;>
+        <img id="dicePic1" src="dice-png.png" height="90px" width="90px">
+        
+        <img id="dicePic2" src="dice-png.png" height="90px" width="90px">
+<h1>WELCOME TO ugly DICE ROLLER$</h1>
+    </div>
+    <div>
+        <h3>1.) How many Dice would you like to roll?
+            <input type="text" id="userInput" minlength="1" maxlength="2" size="12" placeholder="Enter number">
+           
+
+            <button id="diceNum" type="button">Roll Dice!
+                <!-- submit would add event to show picture of dice or the number of squares to rep a pic of dice -->
+            </button></h3>
+        <div>
+            <!-- <p>...no more bets! </p> -->
+            <table id="table"> <strong>Totals:_</strong>
+                
+               
+            </table>
+        </div>
+        <!-- <button id="readyToRoll" type="button">
+            Ready to Roll</button> -->
+        </div>
+        <div id="allRolls">
+            <table>
+        <ol>
+                 <button class="allRolls" type="button">
+                 Show All Rolls</button>
+            
+              
+            </ol>
+            </table>
+        
+    </div><br>
+    <div id="reset-container">
+        <button id="reset-button">RESET BUTTON</button><br>
+        NUMBER OF RESETS: <span id="num-resets">0</span>
+    </div>
+
+
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
